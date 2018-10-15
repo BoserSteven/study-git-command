@@ -1,7 +1,7 @@
 #git命令学习
 ---
 _克隆仓库_
-	git clone [仓库地址]
+	```git clone [仓库地址]
 _添加文件到暂存区_
 	git add *
 _提交修改到HEAD_
