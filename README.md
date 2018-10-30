@@ -22,9 +22,15 @@ git命令学习
 #### 更新远端仓库代码到本地仓库
 
 	git pull origin [分支名称](例如:master)
-#### 创建本地分支
+#### 创建并切换到本地分支 [参考来源](https://git-scm.com/book/zh/v1/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%9A%84%E6%96%B0%E5%BB%BA%E4%B8%8E%E5%90%88%E5%B9%B6)
 
-	git checkout [分支名称]
+	git checkout -b [分支名称]
+#### 创建分支
+    
+    git branch [分支名称]
+#### 切换到分支
+
+    git checkout [已创建好的分支名称]
 #### 显示本地分支
 
 	git branch [-a(-a参数是显示本地仓库和远端仓库的所有分支)] 
